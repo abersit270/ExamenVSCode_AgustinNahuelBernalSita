@@ -12,8 +12,14 @@ public class ClaseJugador {
 					resultado=numero1+numero2;
 					break;
 				case 1:
-				resultado= numero1-numero2;
+					resultado= numero1-numero2;
 				break;
+				case 2:
+					resultado=numero1*numero2;
+					break;
+				case 3:
+					resultado=numero1/numero2;
+					break;
 			
 		}
 	}	
